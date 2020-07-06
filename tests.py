@@ -14,5 +14,11 @@ class TestMyMean(unittest.TestCase):
     def test_my_mean_many_floats(self):
         self.assertEqual(my_mean([1.1, 2.2, 3.3]), 6.6/3)
 
+    def test_my_mean_empty_list(self):
+
+        with self.assertRaises(ZeroDivisionError):
+            res = my_mean([])
+
+
 if __name__ == '__main__':
     unittest.main()
