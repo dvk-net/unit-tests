@@ -1,5 +1,8 @@
 # Testing in Python
 
+
+**Testing in Python is a huge topic!!!**
+
 ## Automated vs. Manual Testing
 
 ---
@@ -9,6 +12,7 @@
 - **exploratory testing**
 
   - No plan
+  - King of manual tesing
 
 ---
 
@@ -16,8 +20,8 @@
 
 #### Unit Tests vs. Integration Tests
 
-- **Untegration testing** - Testing multiple components
-- **Unit testing** - Testing singe component
+- **Untegration testing** - Testing multiple components in a chain (together)
+- **Unit testing** - Testing singe component (single unit of code)
 
 ---
 
@@ -31,9 +35,15 @@
 
 **_Unittest_** has been built into the Python standard library since version 2.1.
 
+- Consists of test steps (test cases)
+- Consists of test assertions
+    - Tests are grouped as methods in Classes
+    - Use a series of special assertion methods 
+
 #### Example
 
 ```python
+# No need to pip install ...
 import unittest
 
 

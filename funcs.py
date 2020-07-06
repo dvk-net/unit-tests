@@ -1,4 +1,8 @@
-def my_mean(in_list):
+'''
+Module consists of functions to test 
+'''
+from typing import List, Union
+def my_mean(in_list: List[Union[int, float]]) -> float:
     """
     Calculates mean of the provided list
     """
