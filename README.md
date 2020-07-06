@@ -158,3 +158,21 @@ class TestMean(unittest.TestCase):
 ```
 
 
+## Side effects
+
+*Executing a piece of code will change the environment:* 
+
+    - the attribute of a class
+    - a file on the filesystem
+    - value in a database
+    - ...
+
+*How to prevent (mitigate)*
+
+    - Refactor to follow SRP
+    - Mock
+    - ...
+
+## Mock
+
+[unittest.mock (on python.org)](https://docs.python.org/3/library/unittest.mock.html#module-unittest.mock)
